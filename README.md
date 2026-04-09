@@ -28,8 +28,7 @@ CST2216_Real_Estate/
 │   └── utils.py                 # Logging and utility functions
 ├── app.py                       # Streamlit web application
 ├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-└── Real_Estate.ipynb           # Original Jupyter notebook (reference)
+├── README.md                    
 ```
 
 ## Getting Started
