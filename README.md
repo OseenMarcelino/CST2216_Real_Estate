@@ -185,51 +185,5 @@ All errors are logged and displayed to the user in the Streamlit app.
 | streamlit | Web application framework |
 | Pillow | Image processing |
 
-## Learning Objectives
 
-This project demonstrates:
-- Data loading and validation
-- Train-test data splitting
-- Model training (Linear Regression & Random Forest)
-- Model evaluation and comparison
-- Logging and error handling
-- Code modularization and organization
-- Building interactive web applications with Streamlit
-- Deployment to cloud platforms
 
-## Troubleshooting
-
-### Issue: Module import errors
-```bash
-# Ensure you're in the correct directory and dependencies are installed
-pip install -r requirements.txt
-```
-
-### Issue: Data file not found
-```bash
-# Verify final.csv is in the data/ folder
-ls data/
-```
-
-### Issue: Port 8501 already in use
-```bash
-# Run on a different port
-streamlit run app.py --server.port 8502
-```
-
-## Contributing
-
-This is an educational project. For improvements:
-1. Create a feature branch
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
-
-## License
-
-This project is for educational purposes.
-
----
-
-**Last Updated:** April 2026  
-**Status:** Complete and Ready for Deployment
