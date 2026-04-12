@@ -50,9 +50,6 @@ CST2216_Real_Estate/
    ```
 
 ## How to Run
-
-### Option 1: Run the Web Application (Recommended)
-
 Start the Streamlit app to interact with the models through a user-friendly interface:
 
 ```bash
@@ -65,14 +62,6 @@ The app will open at `http://localhost:8501` in your browser.
 - **Dashboard**: View data overview and statistics
 - **Model Training**: Train both models and compare performance
 - **Price Predictor**: Input property details and get price predictions
-
-### Option 2: Use the Jupyter Notebook
-
-Open the original notebook for reference:
-
-```bash
-jupyter notebook Real_Estate.ipynb
-```
 
 ## Data Description
 
@@ -132,12 +121,6 @@ Target: Achieve MAE < $70,000 for reliable predictions
 ### Steps to Deploy:
 
 1. **Push code to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
 
 2. **Visit [Streamlit Cloud](https://streamlit.io/cloud):**
    - Sign in with your GitHub account
@@ -146,7 +129,7 @@ Target: Achieve MAE < $70,000 for reliable predictions
    - Set main file: `app.py`
    - Click "Deploy"
 
-3. **Your app will be live at:** `https://<your-username>-realestate-<random>.streamlit.app`
+3. **Your app will be live at:** `https://<your-username>-realestate-<name>.streamlit.app`
 
 ### Streamlit Cloud Requirements:
 - GitHub account with repository
