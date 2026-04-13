@@ -85,10 +85,7 @@ if page == "Dashboard":
     
     st.divider()
     
-    # Price distribution
-    st.subheader("Price Distribution")
-    st.bar_chart(df['price'].value_counts().sort_index(), height=400)
-    
+
     # Feature statistics
     st.subheader("Feature Statistics")
     stats_df = df.describe().T
