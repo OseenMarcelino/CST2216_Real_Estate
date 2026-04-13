@@ -37,8 +37,8 @@ env/
 logs/
 *.log
 
-# Streamlit
-.streamlit/
+# Streamlit cache only (not config)
+.streamlit/secrets.toml
 
 # Data (if large files)
 *.csv~
